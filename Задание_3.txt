@@ -1,0 +1,13 @@
+[Cart/Order/Marketing Service] 
+          │
+          ▼
+    [Event / Message Queue]
+          │
+          ▼
+  [Notification Service / Rules Engine]
+          │
+          ▼
+  [Push Delivery Service (FCM/APNS)]
+          │
+          ▼
+       [Mobile App]

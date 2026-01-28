@@ -1,0 +1,52 @@
+{
+  "data": [
+    {
+      "id": "metro",
+      "name": "METRO",
+      "logo_url": "/logos/metro.png",
+      "delivery": {
+        "type": "time_window",
+        "from": "21:00",
+        "to": "23:00",
+        "label": "Ближайшая доставка сегодня 21:00–23:00"
+      },
+      "external_url": "https://www.metro.ru"
+    },
+    {
+      "id": "auchan",
+      "name": "Ашан",
+      "logo_url": "/logos/auchan.png",
+      "delivery": {
+        "type": "time_window",
+        "from": "18:00",
+        "to": "20:00",
+        "label": "Ближайшая доставка сегодня 18:00–20:00"
+      },
+      "external_url": "https://www.auchan.ru"
+    },
+    {
+      "id": "vkusvill",
+      "name": "ВкусВилл",
+      "logo_url": "/logos/vkusvill.png",
+      "delivery": {
+        "type": "fast",
+        "min_minutes": 20,
+        "max_minutes": 60,
+        "label": "Быстрая доставка от 20 до 60 минут"
+      },
+      "external_url": "https://vkusvill.ru"
+    },
+    {
+      "id": "victoria",
+      "name": "Виктория",
+      "logo_url": "/logos/victoria.png",
+      "delivery": {
+        "type": "time_window",
+        "from": "17:00",
+        "to": "19:00",
+        "label": "Ближайшая доставка сегодня 17:00–19:00"
+      },
+      "external_url": "https://victoria-group.ru"
+    }
+  ]
+}
